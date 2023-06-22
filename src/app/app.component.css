@@ -1,0 +1,72 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI";
+}
+
+.container--contador {
+  margin: 0 auto;
+  width: 50%;
+  background: #ddd;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.contador--titulo {
+  font-size: 35px;
+  margin: 10px 0;
+  color: #444;
+}
+
+.contador--conteo {
+  color: #777;
+  font-size: 40px;
+}
+
+.contador--botones {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contador--botones button {
+  margin: 0 10px;
+  border: none;
+  display: block;
+  padding: 10px 30px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: all .2s;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+
+.contador--botones button:hover {
+  transform: scale(1.05);
+  transition: all .2s;
+}
+
+.contador--botones .botones--boton-inc button {
+  
+  background-color: #ddd;
+  border: 2px solid #477e45;
+  color: #477e45;
+}
+
+.contador--botones .botones--boton-dec button {
+  background-color: #ddd;
+  border: 2px solid #7e4545;
+  color: #7e4545;
+}
+
+.contador--botones .botones--boton-res button {
+  background-color: #ddd;
+  border: 2px solid #45737e;
+  color: #45737e;
+}
